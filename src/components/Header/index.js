@@ -11,7 +11,7 @@ const Header = () => {
         <div className="menu-container">
           <Styled.Link to="/">
             <div className="title">
-              <img src="images/logo1.png" alt="더샵신문그리니티" />
+              <img src="images/logo.png" alt="더샵신문그리니티" />
             </div>
           </Styled.Link>
           <Styled.Link to="/sub2">
