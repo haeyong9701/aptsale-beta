@@ -21,7 +21,7 @@ const Sidebar = () => {
           </a>
         </div>
         <div className="reservation-container">
-          <a href="https://naver.me/FfeZ20DV" className="reservation-link">
+          <a href="https://naver.me/513XTPEj" className="reservation-link">
             <div>사전방문예약</div>
           </a>
         </div>

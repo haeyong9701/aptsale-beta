@@ -15,17 +15,9 @@ const Mainpage = () => {
       <Header />
       <Styled.Body>
         <div className="image-container">
-          <img className="main-image" src="images/info04.png" alt="메인페이지설명" />
-          <img className="main-image" src="images/03.jpeg" alt="메인페이지설명" />
-          <img className="main-image" src="images/04.jpeg" alt="메인페이지설명" />
-          <img className="main-image" src="images/10.jpeg" alt="메인페이지설명" />
-          <img className="main-image" src="images/06.jpeg" alt="메인페이지설명" />
-          <img className="main-image" src="images/07.jpeg" alt="메인페이지설명" />
-          <img className="main-image" src="images/08.jpeg" alt="메인페이지설명" />
-          <img className="main-image" src="images/09.jpeg" alt="메인페이지설명" />
-          <img className="main-image" src="images/05.jpeg" alt="메인페이지설명" />
-          <img className="main-image" src="images/info02.png" alt="메인페이지설명" />
-          <img className="main-image" src="images/info03.png" alt="메인페이지설명" />
+          <img className="main-image" src="images/01.png" alt="메인페이지설명" />
+          <img className="main-image" src="images/02.png" alt="메인페이지설명" />
+          <img className="main-image" src="images/03.png" alt="메인페이지설명" />
         </div>
       </Styled.Body>
       <Sidebar />

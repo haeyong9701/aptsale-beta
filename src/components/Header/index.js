@@ -11,7 +11,7 @@ const Header = () => {
         <div className="menu-container">
           <Styled.Link to="/">
             <div className="title">
-              <img src="images/logo1.png" alt="쌍용 더 플래티넘 삼계" />
+              <img src="images/logo1.png" alt="더샵신문그리니티" />
             </div>
           </Styled.Link>
           <Styled.Link to="/sub2">
@@ -27,7 +27,7 @@ const Header = () => {
       </Styled.MenuBar>
       <Styled.Description>
         <div className="description">
-          <div className="title">쌍용 더 플래티넘 삼계</div>
+          <div className="title">더샵 신문 그리니티</div>
           <div className="call-title">(클릭 시 상담원 연결)</div>
           <a href="tel:1688-6331" className="call-button">
             <Icon size={"20"} icon={ic_call} />
