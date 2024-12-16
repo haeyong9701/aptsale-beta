@@ -1,7 +1,11 @@
 import React from "react";
 import { Styled } from "./style";
-import { Icon } from "react-icons-kit";
-import { ic_call } from "react-icons-kit/md/ic_call";
+import { NavLink } from "react-router-dom";
+
+const getLinkStyle = ({ isActive }) => ({
+  color: isActive ? "white" : "#001242",
+  textDecoration: "none",
+});
 
 const Header = () => {
   return (
@@ -14,27 +18,17 @@ const Header = () => {
               <img src="images/logo.png" alt="더샵신문그리니티" />
             </div>
           </Styled.Link>
-          <Styled.Link to="/sub2">
+          <NavLink to="/sub2" activeClassName="active" style={getLinkStyle}>
             <div className="menu">단지안내</div>
-          </Styled.Link>
-          <Styled.Link to="/sub3">
+          </NavLink>
+          <NavLink to="/sub3" activeClassName="active" style={getLinkStyle}>
             <div className="menu">입지분석</div>
-          </Styled.Link>
-          <Styled.Link to="/sub5">
+          </NavLink>
+          <NavLink to="/sub5" activeClassName="active" style={getLinkStyle}>
             <div className="menu">타입안내</div>
-          </Styled.Link>
+          </NavLink>
         </div>
       </Styled.MenuBar>
-      <Styled.Description>
-        <div className="description">
-          <div className="title">더샵 신문 그리니티</div>
-          <div className="call-title">(클릭 시 상담원 연결)</div>
-          <a href="tel:1688-6331" className="call-button">
-            <Icon size={"20"} icon={ic_call} />
-            <div>1688-6331</div>
-          </a>
-        </div>
-      </Styled.Description>
     </>
   );
 };

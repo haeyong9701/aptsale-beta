@@ -88,4 +88,51 @@ export const Styled = {
       }
     }
   `,
+
+  Description: styled.div`
+    .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      height: 90vh;
+
+      .title {
+        font-size: 2.3rem;
+        font-weight: 800;
+        color: white;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.7rem;
+        }
+      }
+      .call-title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #faec78;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.2rem;
+        }
+      }
+      .call-button {
+        display: flex;
+        gap: 5px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+        background-color: #16dd16;
+        padding: 15px 30px;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1rem;
+          padding: 12px 25px;
+        }
+      }
+    }
+  `,
 };
