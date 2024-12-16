@@ -8,7 +8,7 @@ export const Styled = {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: url("images/main00.png") no-repeat center center;
+    background: url("images/main.png") no-repeat center center;
     background-size: cover;
     z-index: -1;
 
