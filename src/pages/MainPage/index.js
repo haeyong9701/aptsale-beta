@@ -1,12 +1,13 @@
 import React from "react";
 import { Styled } from "./style";
-import { Header, Footer, Sidebar } from "../../components";
+import { Header, Footer, Sidebar, Popup } from "../../components";
 import { Icon } from "react-icons-kit";
 import { ic_call } from "react-icons-kit/md/ic_call";
 
 const Mainpage = () => {
   return (
     <>
+      <Popup />
       <Header />
       <Styled.Description>
         <div className="description">
