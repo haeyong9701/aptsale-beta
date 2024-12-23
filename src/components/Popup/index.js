@@ -12,18 +12,24 @@ const Popup = () => {
     isVisible && (
       <Styled.Container>
         <div className="text-container">
-          <div className="title">12월 한정 이벤트</div>
-          <div className="content">
+          <div className="title">김해 삼계 푸르지오 센트럴파크</div>
+          <img className="logo-image" src="images/popupLogo.png" alt="김해 삼계 푸르지오 센트럴파크" />
+          <div className="sub-title">
             <p>
-              황금 열쇠 4돈 <br />
-              로보락 청소기 <br />
-              음식물 처리기 <br />
-              <div className="content-accent">방문 예약자에게 3가지 모두 증정</div>
+              <span className="sub-title-accent">선착순 계약자</span>
+              <br />
+              사은품 안내
             </p>
+          </div>
+          <div className="goods-content">
+            <p className="goods">황금열쇠 4돈 / 로보락 청소기 / 음식물 처리기</p>
+            <p className="goods-sub-content">- 사은품 소진 시 종료됩니다 -</p>
           </div>
         </div>
         <div className="image-container">
-          <img src="images/christmas-tree.gif" alt="크리스마스트리" />
+          <img src="images/황금열쇠.png" alt="황금열쇠" />
+          <img src="images/로보락청소기.png" alt="로보락 청소기" />
+          <img src="images/음식물처리기.png" alt="음식물 처리기" />
         </div>
         <div className="button-container">
           <button className="close-button" onClick={handleClose}>
