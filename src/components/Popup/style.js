@@ -12,6 +12,7 @@ export const Styled = {
     background: url("images/popup.png") no-repeat;
     background-size: cover;
     transform: translate(-50%, -50%);
+    z-index: 2;
 
     .text-container {
       position: absolute;
