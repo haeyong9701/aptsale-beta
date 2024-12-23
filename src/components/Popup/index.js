@@ -12,8 +12,8 @@ const Popup = () => {
     isVisible && (
       <Styled.Container>
         <div className="text-container">
-          <div className="title">김해 삼계 푸르지오 센트럴파크</div>
-          <img className="logo-image" src="images/popupLogo.png" alt="김해 삼계 푸르지오 센트럴파크" />
+          <div className="title">더샵 신문그리니티</div>
+          <img className="logo-image" src="images/popupLogo.png" alt="더샵 신문그리니티" />
           <div className="sub-title">
             <p>
               <span className="sub-title-accent">선착순 계약자</span>
