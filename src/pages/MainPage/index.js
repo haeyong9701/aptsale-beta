@@ -17,6 +17,11 @@ const Mainpage = () => {
             <Icon size={"20"} icon={ic_call} />
             <div>1688-6331</div>
           </a>
+          <div className="reservation-container">
+            <a href="https://naver.me/513XTPEj" className="reservation-link">
+              <div>사전 방문 예약</div>
+            </a>
+          </div>
         </div>
       </Styled.Description>
       <Styled.Body>

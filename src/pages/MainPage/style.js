@@ -133,6 +133,43 @@ export const Styled = {
           padding: 12px 25px;
         }
       }
+
+      .reservation-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 55px;
+        border-radius: 4px;
+      }
+
+      .call-container {
+        background-color: #022c57;
+      }
+
+      .reservation-container {
+        background-color: #022c57;
+        border-radius: 4px;
+
+        @media screen and (max-width: 800px) {
+          width: 150px;
+        }
+      }
+
+      .reservation-link {
+        display: flex;
+        text-decoration: none;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        font-weight: 600;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1rem;
+          padding: 12px 25px;
+        }
+      }
     }
   `,
 };
