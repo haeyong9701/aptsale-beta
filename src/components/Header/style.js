@@ -39,6 +39,18 @@ export const Styled = {
       align-items: center;
     }
 
+    .title {
+      font-size: 3rem;
+      font-weight: 700;
+      color: white;
+      display: flex;
+      align-items: center;
+
+      @media screen and (max-width: 800px) {
+        font-size: 1.5rem;
+      }
+    }
+
     .menu {
       display: flex;
       justify-content: center;

@@ -1,6 +1,5 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { MainPage, SubPage1, SubPage2, SubPage3, SubPage4, SubPage5 } from "./pages";
+import { MainPage, LocationAnalysisPage, PropertyGuidePage, UnitTypeGuidePage } from "./pages";
 import "./App.css";
 
 const App = () => {
@@ -8,11 +7,9 @@ const App = () => {
     <>
       <Routes>
         <Route exact path="/" element={<MainPage />} />
-        <Route path="/sub1" element={<SubPage1 />} />
-        <Route path="/sub2" element={<SubPage2 />} />
-        <Route path="/sub3" element={<SubPage3 />} />
-        <Route path="/sub4" element={<SubPage4 />} />
-        <Route path="/sub5" element={<SubPage5 />} />
+        <Route path="/property-guide" element={<PropertyGuidePage />} />
+        <Route path="/location-analysis" element={<LocationAnalysisPage />} />
+        <Route path="/unit-type-guide" element={<UnitTypeGuidePage />} />
       </Routes>
     </>
   );

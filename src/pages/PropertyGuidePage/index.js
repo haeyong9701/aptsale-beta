@@ -1,14 +1,14 @@
-import React from "react";
 import { Header, Footer, Sidebar } from "../../components";
 import { Styled } from "./style";
 
-const Subpage3 = () => {
+// 단지안내 페이지
+const PropertyGuidePage = () => {
   return (
     <>
       <Header />
       <Styled.Body>
         <div className="image-container">
-          <img src="images/03.png" alt="단지안내" />
+          <img className="main-image" src="images/단지배치도.png" alt="단지배치도" />
         </div>
       </Styled.Body>
       <Sidebar />
@@ -17,4 +17,4 @@ const Subpage3 = () => {
   );
 };
 
-export default Subpage3;
+export default PropertyGuidePage;
