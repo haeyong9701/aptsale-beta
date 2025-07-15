@@ -3,6 +3,7 @@ import { Header, Footer, Sidebar } from "../../components";
 import { Icon } from "react-icons-kit";
 import { ic_call } from "react-icons-kit/md/ic_call";
 import { APT_NAME } from "../../constants";
+import { RESERVATION_LINK } from "../../constants";
 
 const Mainpage = () => {
   return (
@@ -17,7 +18,7 @@ const Mainpage = () => {
             <div>1688-6331</div>
           </a>
           <div className="reservation-container">
-            <a href="https://naver.me/513XTPEj" className="reservation-link">
+            <a href={RESERVATION_LINK} className="reservation-link">
               <div>사전 방문 예약</div>
             </a>
           </div>

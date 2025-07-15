@@ -1,7 +1,7 @@
-import React from "react";
 import { Styled } from "./style";
 import { Icon } from "react-icons-kit";
 import { ic_call } from "react-icons-kit/md/ic_call";
+import { RESERVATION_LINK } from "../../constants";
 
 const Sidebar = () => {
   return (
@@ -21,7 +21,7 @@ const Sidebar = () => {
           </a>
         </div>
         <div className="reservation-container">
-          <a href="https://naver.me/IM4zud5N" className="reservation-link">
+          <a href={RESERVATION_LINK} className="reservation-link">
             <div>사전방문예약</div>
           </a>
         </div>
